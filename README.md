@@ -11,7 +11,7 @@ When we were discussing our project, we saw that all of us are fond of the idea 
 - Adobe Illustrator and Procreate for graphics
 - [FlatIcon](https://www.flaticon.com/) for additional assets
 
-
+### Made with 💜 by Anastasia, Cirill, Emily & Ivette for Creatica 2020
 
 Rapid api
 
