@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,500,900');
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+.aboutIcon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 20px;
+}
+
+.aboutIcon:hover {
+    cursor: pointer;
+    opacity: 0.50;
+}
+
+.modalTitle {
+    color: #9D8189; 
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+}
+
+#landing {
+    height: 100vh;
+    background-color:#F7EDE2;
+}
+
+.landingimg {
+    height: 40px;
+}
+
+.leggo {
+    background-color:#F4ACB7;
+    border: none;
+    color: #F7EDE2;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    margin: 4px 2px;
+    border-radius: 80px;
+    text-decoration: none;
+}
+
+.leggo:hover {
+    cursor: pointer;
+    background-color:#FFCAD4;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 40px;
+
+}
+
+.title {
+    color: #DF8190;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.desc {
+    color: #B07B8B;
+    font-family: "Fira Sans";
+    font-weight: 300;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/* Quiz Pages */
+
+#quiz {
+    height: 100vh;
+    background-color: #FFCAD4;
+}
+
+.backRect {
+    width:80vw;
+    height:80vh;
+    position: relative;
+    top: 5vh;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 40px;
+}
+
+.quizNumber {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F4ACB7;
+    position: relative;
+    left: 31vw;
+    top: -11vh;
+    
+}
+
+.rowElement {
+    position: relative;
+    top: -50px;
+}
+
+.num {
+    font-family: "Fira Sans";
+    font-weight: 400;
+    font-size: 180px;
+    position: relative;
+    top: -9vh;
+    left: -0.5vw;
+    color: #9D8189;
+}
+
+#qGraphic {
+    height: 550px;
+    width: 550px;
+    position: relative;
+    top: -30px;
+    left: -170px;
+}
+
+#question {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 30px;
+    color: #9D8189;
+    
+}
+
+/* .selections {
+    display: flex;
+
+} */
+
+.choice-container {
+    background-color:#D8E2DC;
+    border: none;
+    color: #9D8189;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    display: inline-block;
+    font-family: "Fira Sans";
+    font-size: 22px;
+    padding: 7px 60px;
+    margin: 10px 8px;
+    border-radius: 80px;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    background-color:#d8e2dcc2;
+    color: #9d8189af;
+}
+
+/* Results Page */
+
+#results {
+    background-color:#D8E2DC;
+    height: 100vh;
+}
+
+.resultsRect {
+    width:90vw;
+    height:90vh;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 40px;
+}
+
+.resultTitle {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 70px;
+    color: #9D8189;
+}
+
+.resultSubtitle {
+    font-family: "Fira Sans";
+    font-weight: 500;
+    font-size: 30px;
+    color: #F4ACB7;
+}
+
+.resultsimg {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #f4acb72a;
+    border-radius: 20px;
+}
+
+.resultsgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultslink {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #F4ACB7;
+    font-size: 33px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.resultslink:hover {
+    text-decoration: none;
+    color: #f1cad0;
+}
+
+.credit {
+    margin-top: 10px;
+    color: #9D8189;
+    font-size: 13px;
+}
+
+.startOver {
+    position: absolute;
+    left: 4vw;
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.startOver:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255);
+}
+
+.leftimg {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    left: 15px;
+}
