@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Yummy Food</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm fixed-top" style="padding:0; margin:0; background-color: inherit">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding:0; margin:0;">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="restaurants.html">Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="grocery.html">Groceries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid min-height-full min-width-full" style= "display: flex; align-items: center; justify-content: center;">
+      <div style="flex: 1; text-align: center">
+        <h1>Find your local grocer here!</h1>
+        <p class="hidden" id="warning" style="color: red">Please enter a location</p>
+        <br>
+        <form class="location-search-bar" id="my-form">
+          <input type="text" placeholder="Enter your location.." id="search">
+          <button type="submit" onclick="showdemo(event)"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div id="hidden-content" style="padding: 0">
+    <div class="container-fluid min-height-full width-full white row" style= "align-items: center; justify-content: center; flex-wrap: wrap; padding: 40px 20px; margin: 0;" id="hidden-content">
+        <div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+      
+      <div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+      <div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+      <div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+      <div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+      <div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+			<div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+			<div class="col-sm-4" style="text-align: center; border: 1px solid black; border-radius: 5px;padding: 20px; margin: 20px; background-color: white; width: 500px; height: 200px">
+        <a href="grocerya.html">
+        <img class="thumbpic" src= "images/groceries vegetable.png">
+        <h3>Grocery A</h3>
+        <p><i>Organic Produce</i></p>
+        </a>
+      </div>
+    </div>
+    </div>
+
+    </div>
+</body>
+</html>
+
+  <style>
+    a, a:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
